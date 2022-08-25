@@ -2,7 +2,6 @@
 //  ROUTING
 // ------------------------------------------------------------------------------
 
-const productController = require('../controllers/productos');
 
 function getRoot(req, res) {
     res.render('main')
